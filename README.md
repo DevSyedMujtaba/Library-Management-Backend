@@ -5,15 +5,25 @@ This system handles everything from user authentication and book management to b
 
 🚀 Features
 🔐 User Authentication & Authorization (JWT-based login & role management)
+
 📚 Book Management (CRUD operations, categories, availability tracking)
+
 👥 Role-Based Access Control (Admin, Librarian, Student)
+
 📅 Book Borrowing & Returns with automatic fine calculation
+
 💬 Notifications System (email & in-app alerts for due dates, new books, etc.)
+
 ⭐ Book Reviews & Ratings
+
 📊 Admin Dashboard with analytics and reports
+
 🧾 Activity Logs & Audit Trails
+
 🧠 Error Handling, Logging, and Validation Middleware
+
 🧰 Sequelize Associations, Transactions, and Migrations
+
 🧪 Testing-Ready (Jest/Supertest support structure)
 
 🧩 Tech Stack
