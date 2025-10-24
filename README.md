@@ -4,6 +4,7 @@ A complete backend solution for managing libraries efficiently — built using N
 This system handles everything from user authentication and book management to borrowing, fines, notifications, and analytics, designed to demonstrate a full-stack backend architecture from beginner to professional level.
 
 🚀 Features
+
 🔐 User Authentication & Authorization (JWT-based login & role management)
 
 📚 Book Management (CRUD operations, categories, availability tracking)
@@ -28,32 +29,54 @@ This system handles everything from user authentication and book management to b
 
 🧩 Tech Stack
 Backend Framework: Koa.js
+
 Database: MySQL
+
 ORM: Sequelize
+
 Authentication: JWT, bcrypt
+
 Email: Nodemailer
+
 Storage: Supabase Storage
+
 Other Tools: Docker, ESLint, Prettier
+
 
 🗂️ Folder Structure
 src/
  ├── config/
+ 
  ├── controllers/
+ 
  ├── models/
+ 
  ├── routes/
+ 
  ├── middleware/
+ 
  ├── utils/
+ 
  └── app.js
+
 
 🧠 Learning Focus
 This project is designed to help developers:
+
 Understand backend fundamentals in Koa.js.
+
 Work with Sequelize for relational data and associations.
+
 Implement authentication, middleware, and advanced API design.
+
 Learn production-level concepts like logging, caching, and testing.
+
 
 💡 Future Enhancements
 Redis caching for performance optimization
+
 Real-time notifications via WebSockets
+
 ElasticSearch for advanced book search
+
 CI/CD pipeline for automated deployment
